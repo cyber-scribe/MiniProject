@@ -3,8 +3,6 @@
     font-size: medium;
     font-family: 'Chakra Petch', sans-serif;
 }
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
-
 a, a:hover {
 	text-decoration: none;
 }
@@ -27,11 +25,7 @@ a, a:hover {
 	border: 1px solid #000;
 	padding-top: 12px;
 	border-radius: 22px;
-	-moz-border-radius: 22px;
-	-webkit-border-radius: 22px;
-	-o-border-radius: 22px;
 }
-
 .socialbtns .fa:hover {
 	color: #FFF;
 	background-color: #000;
@@ -39,12 +33,28 @@ a, a:hover {
 }
 
 .header{
-    margin-top: 0px;
-    text-align: right;
+   /* background-image: url(pic.jpg); */
+   text-align: right;
+   position:relative;
+
+}
+footer{
+    background-color: #000;
+    margin: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
 }
 .links{
     text-decoration: none;
-    padding: 10px;
+    padding: 3px;
+    background-color: rgb(255,255,255);
+    font-weight:bold;
+    color: #000;
+    border-radius: 5px;
+
+}
+#dwn{
+    text-decoration: none;
     color: rgb(255,255,255);
 
 }
@@ -56,25 +66,58 @@ a, a:hover {
     padding: 20px 30px 20px 30px;
 }
 .btn{
-    color: white;
-    background-color: rgb(0, 0, 0);
-    border-radius: 3px;
-    border:none;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
 }
 .btn:hover{
-    color: rgb(0, 0, 0);
-    background-color:white;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    border-radius: 3px;
+    border:none;
+    transform: rotateX('90');
+}
+.links:hover{
+    background-color: rgb(0, 0, 0);
+    color:white;
     border-radius: 3px;
     border:none;
 }
 p,h3{
     color:white;
+    }
+h3{
+    color:white;
+
 }
 body{
-    background-image:url(pic.jpg); background-size: cover; background-repeat: no-repeat; text-align: left;
+    background-color: rgb(39, 35, 35);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    text-align: left;
+    /* margin: 25px; */
 }
 @media (max-width: 600px) {
     body{
-        background-image:url(pic.jpg); background-size:contain; background-repeat: no-repeat; text-align: left;
+        position: absolute;
     }
   }
+.courses{
+    border: solid white;
+    background-color: white;
+    margin:15px;
+    height: 100px;
+    width: 160px;
+    display: inline-block;
+    border-radius:5px;
+}
+.testm{
+    border: solid white;
+    margin:15px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 50%;
+}
