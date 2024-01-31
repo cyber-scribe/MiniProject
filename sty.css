@@ -1,0 +1,91 @@
+*{
+    background-color: black;
+    box-sizing: border-box;
+    margin:5px;
+    padding:2px;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+}
+body{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+form{
+    border: solid grey;
+    background-color: grey;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-align: center;
+
+}
+.label{
+    background-color: grey;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-weight: bolder;
+
+}
+#smt{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+    width:100px
+}
+#smt:hover{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor:pointer;
+    width:100px
+}
+.bx{
+    color: white;
+    background-color:black;
+    font-weight: bolder;
+} 
+@media (max-width: 1250px) {
+body{
+    margin:auto;
+    box-sizing: border-box;
+}
+form{
+    border: solid grey;
+    background-color:grey;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+
+}
+.label{
+    background-color: grey;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    /* font-weight: bolder; */
+
+}
+#smt{
+    background-color: black;
+    color: white;
+    /* padding: 5px; */
+    border-radius: 5px;
+    /* font-weight: bolder;
+    width:100px; */
+}
+#smt:hover{
+    color: black;
+    background-color: white;
+    /* padding: 5px; */
+    border-radius: 5px;
+    /* font-weight: bolder; */
+    cursor:pointer;
+    /* width:100px */
+}
+.bx{
+    color: white;
+    background-color:black;
+} 
+}
+
