@@ -52,7 +52,9 @@ footer{
     font-weight:bold;
     color: #000;
     border-radius: 5px;
-
+    padding-left:7px;
+    padding-right:7px;
+    margin:5px;
 }
 #dwn{
     text-decoration: none;
@@ -83,9 +85,12 @@ footer{
 .links:hover{
     background-color: rgb(0, 0, 0);
     color:white;
-    border-radius: 3px;
+    border-radius: 5px;
     border:none;
     cursor: pointer;
+    padding-left:7px;
+    padding-right:7px;
+    margin:5px;
 }
 p,h3{
     color:white;

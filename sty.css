@@ -1,5 +1,4 @@
 *{
-    background-color: black;
     box-sizing: border-box;
     margin:5px;
     padding:2px;
@@ -7,6 +6,8 @@
     font-family: 'Chakra Petch', sans-serif;
 }
 body{
+    /* background-image:url(j.png); */
+    filter: blur(50%);
     margin-left: 30%;
     margin-right: 30%;
 }
