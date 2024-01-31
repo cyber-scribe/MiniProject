@@ -36,6 +36,7 @@ a, a:hover {
    /* background-image: url(pic.jpg); */
    text-align: right;
    position:relative;
+   margin: 10px;
 
 }
 footer{
@@ -84,6 +85,7 @@ footer{
     color:white;
     border-radius: 3px;
     border:none;
+    cursor: pointer;
 }
 p,h3{
     color:white;
@@ -99,7 +101,7 @@ body{
     text-align: left;
     /* margin: 25px; */
 }
-@media (max-width: 600px) {
+@media (max-width: 1250px) {
     body{
         position: absolute;
     }
