@@ -1,50 +1,176 @@
 *{
-    text-align: center;
-    font-size: medium;
-    font-family: 'Chakra Petch', sans-serif;
+    margin:0;
+    padding: 0;
 }
-a, a:hover {
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(43, 44, 50, 0.7),rgba(43, 44, 50, 0.7)) ,url(background.jpg);
+    background-size: cover;
+    background-position: cover;
+    position: relative;
+}
+ nav{
+    text-align: right;
+    padding: 3% 3%;
+}
+nav li{
+    list-style:none;
+    display: inline-block;
+}
+ nav li a{
+    padding: 10px;
+    margin:3px;
+    text-decoration: none;
+    color: white;
+    font-weight:bolder;
+    font-family: 'Roboto', sans-serif;
+ }
+ nav a::after{
+    content:'';
+    width:0%;
+    height:2px;
+    margin:auto;
+    display:block;
+    background:rgb(246, 113, 76);
+    transition: 0.3s;
+ }
+ a:hover::after{
+    width: 50%;
+ }
+ .txt{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    color:white ;
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+ }
+.txt h1{
+    font-size: 40px;
+}
+.txt p{
+    font-size:20px ;
+} 
+#btn{
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    font-weight:bolder;
+    padding:2px 5px 2px 15px;
+    border:solid 1px white;
+}  
+#btn:hover{
+   background-color:white;  
+   opacity:.3;
+   color:rgb(2, 2, 244);
+}
+.socialbtns, .socialbtns ul, .socialbtns li {
+    margin:0px;
+    padding: 5px;
+  }
+  
+  .socialbtns li {
+      list-style: none outside none;
+      display: inline-block;
+  }
+  
+  .socialbtns .fa {
+      width: 40px;
+      height: 28px;
+      color: #000;
+      background-color: #FFF;
+      border: 1px solid #000;
+      padding-top: 12px;
+      border-radius: 22px;
+  }
+  .socialbtns .fa:hover {
+      color: #FFF;
+      background-color: #000;
+      border: 1px solid #000;
+  }
+  footer{
+      background-color: #000;
+      margin: 0px;
+      margin-bottom: 0px;
+      padding: 0px;
+  } 
+
+
+
+
+
+
+
+
+/* @media(max-width:700px){
+    .txt h1{
+        font-size: 20px;
+    }
+    .txt p{
+        font-size:5px ;
+    } 
+    #btn{
+        text-decoration: none;
+        color: white;
+        font-size:5px;
+        font-weight:bolder;
+        padding:1px;
+        border:solid  white;
+        }
+    nav li a{
+        padding: 2px;
+        margin:1px;
+        text-decoration: none;
+        color: white;
+        font-weight:normal;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+ /* .socialbtns, .socialbtns ul, .socialbtns li { */
+    /* margin: 0;
+    padding: 5px;
+  }
+  
+  .socialbtns li {
+      list-style: none outside none;
+      display: inline-block;
+  }
+  
+  .socialbtns .fa {
+      width: 40px;
+      height: 28px;
+      color: #000;
+      background-color: #FFF;
+      border: 1px solid #000;
+      padding-top: 12px;
+      border-radius: 22px;
+  }
+  .socialbtns .fa:hover {
+      color: #FFF;
+      background-color: #000;
+      border: 1px solid #000;
+  }
+  footer{
+      background-color: #000;
+      margin: 0px;
+      margin-bottom: 0px;
+      padding: 0px;
+  } */
+
+
+
+
+
+
+
+/* a, a:hover {
 	text-decoration: none;
 }
 
-.socialbtns, .socialbtns ul, .socialbtns li {
-  margin: 0;
-  padding: 5px;
-}
 
-.socialbtns li {
-    list-style: none outside none;
-    display: inline-block;
-}
-
-.socialbtns .fa {
-	width: 40px;
-    height: 28px;
-	color: #000;
-	background-color: #FFF;
-	border: 1px solid #000;
-	padding-top: 12px;
-	border-radius: 22px;
-}
-.socialbtns .fa:hover {
-	color: #FFF;
-	background-color: #000;
-	border: 1px solid #000;
-}
-
-.header{
-   /* background-image: url(pic.jpg); */
-   text-align: right;
-   position:relative;
-   margin: 10px;
-
-}
-footer{
-    background-color: #000;
-    margin: 0px;
-    margin-bottom: 0px;
-    padding: 0px;
-}
 .links{
     text-decoration: none;
     padding: 3px;
@@ -105,7 +231,7 @@ body{
     background-repeat: no-repeat; 
     text-align: left;
     /* margin: 25px; */
-}
+/* }
 @media (max-width: 1250px) {
     body{
         position: absolute;
@@ -127,4 +253,4 @@ body{
     width: 100px;
     display: inline-block;
     border-radius: 50%;
-}
+} */ 
