@@ -8,15 +8,18 @@
     <link rel="stylesheet" href="sty.css">
 </head>
 <body><center>
-    <h1>Login</h1>
     <form>
+        <h1>Login</h1><br>
         <label id="Email" class="label">Username
             <input type="email" pattern=".+@gmail\.com" size="20" required class="bx" placeholder="name@domain.com"><br><br>
         </label>
         <label id="Phone Number" class="label">Password
-            <input type="tel" pattern="[0-9]{10}" required  class="bx"><br><br>
+            <input type="tel" pattern="[0-9]{10}" required  class="bx"><br>
+            <a href="res.html" id="rt">Forgot Password?</a>
+            <br><br>
         </label>
-        <input type="submit" id="smt" value="Login">
+        <input type="submit" id="smt" value="Login"><br><br>
+    <p>Don't have an account?</p><a href="signup.html">Register</a>
     </form></center>
     <script src="log.js"></script>
 </body>

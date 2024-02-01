@@ -3,31 +3,36 @@
     margin:0%;
     padding:0%;
     text-align: center;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Roborto', sans-serif;
 }
 body{
-    /* background-image:url(j.png); */
-    filter: blur(50%);
-    margin-left: 30%;
-    margin-right: 30%;
+    background-color: #1b202b;
 }
 form{
-    border: solid grey;
-    background-color: grey;
+    border: solid #4a525e;
+    background-color:#4a525e;
     color: rgb(255, 255, 255);
     border-radius: 5px;
     text-align: center;
+    margin:1% 30% 10% 30%;
+    padding: 15px;
+
 
 }
+h1{
+    font-family: 'Roborto', sans-serif; 
+    color: #ffffff;
+    text-align:center;
+}
 .label{
-    background-color: grey;
+    background-color: #4a525e;
     color: rgb(255, 255, 255);
     border-radius: 5px;
     font-weight: bolder;
 
 }
 #smt{
-    background-color: black;
+    background-color: #202125;
     color: white;
     padding: 5px;
     border-radius: 5px;
@@ -35,7 +40,7 @@ form{
     width:100px
 }
 #smt:hover{
-    color: black;
+    color: #202125;
     background-color: white;
     padding: 5px;
     border-radius: 5px;
@@ -45,7 +50,7 @@ form{
 }
 .bx{
     color: white;
-    background-color:black;
+    background-color:#202125;
     font-weight: bolder;
 } 
 @media (max-width: 1250px) {
@@ -54,21 +59,21 @@ body{
     box-sizing: border-box;
 }
 form{
-    border: solid grey;
-    background-color:grey;
+    border: solid #4a525e;
+    background-color:#4a525e;
     color: rgb(255, 255, 255);
     border-radius: 5px;
 
 }
 .label{
-    background-color: grey;
+    background-color: #4a525e;
     color: rgb(255, 255, 255);
     border-radius: 5px;
     /* font-weight: bolder; */
 
 }
 #smt{
-    background-color: black;
+    background-color: #202125;
     color: white;
     /* padding: 5px; */
     border-radius: 5px;
@@ -76,7 +81,7 @@ form{
     width:100px; */
 }
 #smt:hover{
-    color: black;
+    color: #202125;
     background-color: white;
     /* padding: 5px; */
     border-radius: 5px;
@@ -86,7 +91,17 @@ form{
 }
 .bx{
     color: white;
-    background-color:black;
+    background-color:#202125;
 } 
+}
+a{
+    text-decoration: none;
+    color: #202125;
+}
+a:hover{
+    color: #a8aab3;
+}
+#rt{
+    text-align: right;
 }
 
