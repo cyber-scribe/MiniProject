@@ -162,6 +162,7 @@ h2,h3{
     height: 50vh;
 }
 .crs{
+    padding: 25px;
     display: inline-block;
     border: solid #202125;
     background-color: #202125;
