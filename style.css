@@ -162,15 +162,18 @@ h2,h3{
     height: 50vh;
 }
 .crs{
-    /* padding: 25px; */
+    padding: 5px;
     display: inline-block;
     border: solid #202125;
     background-color: #202125;
     margin: 35px;
-    height: 100px;
+    height:fit-content;
     width: 160px;
     display: inline-block;
     border-radius:5px;
+}
+h3{
+    font-size: smaller;
 }
 @media(max-width:700px){
     .txt h1{
