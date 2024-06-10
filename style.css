@@ -157,16 +157,16 @@ h2,h3{
     text-align:center;
 }
 #courses{
-    background-color:#4a525e ;
+    background-color:#424e5d;
     padding: 20px 75px 20px 75px;
-    height: 50vh;
+    height: fit-content;
 }
 .crs{
-    padding: 5px;
+    padding: 6px;
     display: inline-block;
     border: solid #202125;
     background-color: #202125;
-    margin: 35px;
+    margin: 20px;
     height:fit-content;
     width: fit-content;
     display: inline-block;
@@ -175,9 +175,23 @@ h2,h3{
 .crs img {
     margin-left: 1px;
 }
-h3{
-    text-align: center;
-    font-size: smaller;
+.crs li{
+    color: whitesmoke;
+    align-items: left;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: smaller ;
+}
+h6{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+    text-align: left;
+}
+h5{
+    text-align: left;
+    font-weight: bolder;
+    color: white;
+    /* font-size: smaller; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 @media(max-width:700px){
