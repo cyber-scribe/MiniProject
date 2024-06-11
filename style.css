@@ -171,6 +171,11 @@ h2,h3{
     width: fit-content;
     display: inline-block;
     border-radius:5px;
+    transform: scale(0.90);
+}
+.crs:hover{
+    transform: scale(1);
+    transition: all 0.1s ease-in-out;
 }
 .crs img {
     margin-left: 1px;
