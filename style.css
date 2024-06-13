@@ -173,6 +173,9 @@ h2,h3{
     border-radius:8px;
     transform: scale(0.90);
 }
+.crs a{
+    text-decoration: none;
+}
 .crs:hover{
     transform: scale(1);
     transition: all 0.1s ease-in-out;
