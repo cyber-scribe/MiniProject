@@ -160,6 +160,7 @@ h2,h3{
     background-color:#424e5d;
     padding: 20px 75px 20px 75px;
     height: fit-content;
+    text-align: center;
 }
 .crs{
     padding: 6px;
@@ -169,7 +170,7 @@ h2,h3{
     margin: 20px;
     height:fit-content;
     width: fit-content;
-    display: inline-block;
+    display:inline-block;
     border-radius:8px;
     transform: scale(0.90);
 }
@@ -185,6 +186,7 @@ h2,h3{
 }
 .crs li{
     color: whitesmoke;
+    text-align: left;
     align-items: left;
     list-style: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
