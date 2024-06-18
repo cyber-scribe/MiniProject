@@ -102,6 +102,7 @@ a:hover{
     color: #a8aab3;
 }
 #rt{
-    text-align: right;
+    text-align:right;
+    font-size: smaller;
 }
 
