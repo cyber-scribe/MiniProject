@@ -6,7 +6,10 @@
     font-family: 'Roborto', sans-serif;
 }
 body{
-    background-color: #1b202b;
+    background-image: linear-gradient(rgba(238, 238, 238, 0.114), rgb(141, 141, 206)
+  ),
+  url(background.jpg);
+  background-repeat: no-repeat;
 }
 form{
     border: solid #4a525e;
