@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     margin:0%;
-    height: fit-content;
+    /* height: fit-content; */
     padding:0%;
     text-align: center;
     font-family: 'Roborto', sans-serif;
@@ -10,7 +10,6 @@
 body{
     background-image:linear-gradient(rgba(43, 44, 50, 0.7),rgba(43, 44, 50, 0.7)) ,url(banner2.jpg);
     background-repeat: no-repeat;
-    
 }
 form{
     
