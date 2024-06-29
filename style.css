@@ -32,7 +32,7 @@ nav li{
     height:2px;
     margin:auto;
     display:block;
-    background:rgb(246, 113, 76);
+    background:rgb(253, 253, 253);
     transition: 0.3s;
  }
  a:hover::after{
