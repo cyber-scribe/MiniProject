@@ -1,15 +1,16 @@
 *{
     box-sizing: border-box;
     margin:0%;
-    /* height: fit-content; */
     padding:0%;
     text-align: center;
     font-family: 'Roborto', sans-serif;
+    backdrop-filter: blur(5px);
     
 }
 body{
-    background-image:linear-gradient(rgba(43, 44, 50, 0.7),rgba(43, 44, 50, 0.7)) ,url(banner2.jpg);
+    background-image:url(banner2.jpg);
     background-repeat: no-repeat;
+    height: fit-content;
 }
 form{
     
@@ -27,6 +28,9 @@ h1{
     font-family: 'Roborto', sans-serif; 
     color: #ffffff;
     text-align:center;
+}
+.data{
+    text-align: center;
 }
 .label{
     background-color: #4a525e;
@@ -53,9 +57,12 @@ h1{
     width:100px
 }
 .bx{
+    /* display: flex; */
+    justify-content: right; 
     color: white;
     background-color:#202125;
-    font-weight: bolder;
+    border-radius: 8px;
+    max-width: fit-content;
 } 
 @media (max-width: 1250px) {
 body{

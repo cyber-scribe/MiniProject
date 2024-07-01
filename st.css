@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin:0%;
+    padding:0%;
+    text-align: center;
+    font-family: 'Roborto', sans-serif;
+    backdrop-filter: blur(5px);
+    
+}
+body{
+    background-image:url(banner2.jpg);
+    background-repeat: no-repeat;
+    width: 75%;
+    text-align: center;
+    margin:15%;
+   
+}
+.container{
+    border-radius: 5px;
+    border: solid #4a525e;
+    background-color:#4a525e;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 80px;
+    
+    }
+ textarea{
+      padding: 2px 2px 2px 2px ;
+      width: fit-content;
+      height: fit-content; 
+        }
+    input[type="Submit"]{
+        background-color: #202125;
+        color: white;
+        padding:8px;
+        border:none;
+        cursor: pointer;
+        border-radius: 5px;
+        margin: 5px;
+    }
+    .submit{
+        text-align: center;
+    }
+    #start{
+        text-align: center ;
+    }
