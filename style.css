@@ -163,6 +163,20 @@ h2,h3{
     height: fit-content;
     text-align: center;
 }
+#courses h4 a{
+    text-decoration: none;
+    color: #1c202f;
+   
+}
+#courses h4{
+    text-align: center;
+    border: solid white;
+    border-radius: 3px;
+}
+#courses h4 a:hover{
+    text-decoration: underline;
+    color: white;
+}
 .crs{
     padding: 6px;
     display: inline-block;
