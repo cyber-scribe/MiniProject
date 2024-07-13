@@ -165,17 +165,22 @@ h2,h3{
 }
 #courses h4 a{
     text-decoration: none;
-    color: #1c202f;
+    color: #ffffff;
    
 }
-#courses h4{
+#courses h4 a{
+    font-family: 'Roborto',sans-serif;
     text-align: center;
-    border: solid white;
+    width: 100px;
+    padding: 5px;
     border-radius: 3px;
+    border: solid white;
+   
 }
 #courses h4 a:hover{
-    text-decoration: underline;
-    color: white;
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+    border-radius: 3px;
 }
 .crs{
     padding: 6px;
