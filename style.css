@@ -178,7 +178,7 @@ h2,h3{
    
 }
 #courses h4 a:hover{
-    color: rgb(0, 0, 0);
+    color: #2c343f;
     background-color: whitesmoke;
     border-radius: 3px;
 }
