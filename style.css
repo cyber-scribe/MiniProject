@@ -82,6 +82,70 @@ nav li{
 #abt ul li{
     list-style:square;
 }
+
+.faqs-container {
+    height: fit-content;
+    background-color: rgb(30 26 52);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2px 275px;
+  }
+  
+  .faqs-container .questions-container {
+    box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.3);
+    padding: 8px;
+  }
+  
+  .faqs-container .faq-header {
+    border-radius: 3px;
+    margin: 1px;
+    display: flex;
+    background: rgb(86, 81, 143);
+    color: #f1faee;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    padding: 8px 2px;
+  }
+  
+  .faqs-container .faq-header .open,
+  .faqs-container .faq-header .close {
+    position: absolute;
+    right: 0;
+    padding: 0 32px;
+    font-size: 22px;
+    font-weight: bold;
+    transform: translateY(-8px);
+    opacity: 0;
+    transition: all 500ms;
+  }
+  
+  .faqs-container .faq-header .open.active,
+  .faqs-container .faq-header .close.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .faqs-container .faq-header h3 {
+    font-size: smaller;
+    padding: 0 32px;
+    text-align: center;
+  }
+  
+  .faqs-container .content {
+    font-size: smaller;
+    padding: 0 32px;
+    background: rgb(30 26 52);
+    line-height: 2;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 500ms;
+  }
+  
+  .faqs-container .content.active {
+    max-height: 600px;
+  }
+  
+
 .ct{
     width:100%;
     height:30vh;
