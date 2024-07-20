@@ -85,7 +85,7 @@ nav li{
 
 .faqs-container {
     height: fit-content;
-    background-color: rgb(30 26 52);
+    background-color: #2c343f;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 2px 275px;
   }
@@ -99,7 +99,7 @@ nav li{
     border-radius: 3px;
     margin: 1px;
     display: flex;
-    background: rgb(86, 81, 143);
+    background:#555f6d;
     color: #f1faee;
     align-items: center;
     position: relative;
@@ -134,7 +134,7 @@ nav li{
   .faqs-container .content {
     font-size: smaller;
     padding: 0 32px;
-    background: rgb(30 26 52);
+    background: #2c343f;
     line-height: 2;
     max-height: 0;
     overflow: hidden;
