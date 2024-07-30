@@ -70,6 +70,7 @@ nav li{
    color:#000000;
 }
 #abt{
+    text-align: center;
     padding: 25px 95px;
     background-color: #2c343f;
     color: white;
@@ -78,6 +79,7 @@ nav li{
 #abt ul{
     text-align:justify;
     margin: 10px 150px 10px 150px;
+    padding: 5px 10px;
 }
 #abt ul li{
     list-style:square;
@@ -229,25 +231,6 @@ h2,h3{
     height: fit-content;
     text-align: center;
 }
-#courses h4 a{
-    text-decoration: none;
-    color: #ffffff;
-   
-}
-#courses h4 a{
-    font-family: 'Roborto',sans-serif;
-    text-align: center;
-    width: 100px;
-    padding: 5px;
-    border-radius: 3px;
-    border: solid white;
-   
-}
-#courses h4 a:hover{
-    color: #2c343f;
-    background-color: whitesmoke;
-    border-radius: 3px;
-}
 .crs{
     padding: 6px;
     display: inline-block;
@@ -289,6 +272,26 @@ h5{
     color: white;
     /* font-size: smaller; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4 a{
+    text-decoration: none;
+    color: #ffffff;
+   
+}
+h4 a{
+    font-family: 'Roborto',sans-serif;
+    text-align: center;
+    width: 100px;
+    padding: 5px;
+    border-radius: 3px;
+    border: solid white;
+   
+}
+h4 a:hover{
+    color: #2c343f;
+    background-color: whitesmoke;
+    border-radius: 3px;
 }
 @media(max-width:700px){
     .txt h1{
