@@ -8,7 +8,8 @@
     
 }
 body{
-    background-image:url(banner2.jpg);
+    /* background-image:url(banner2.jpg); */
+    background-color: #202125;
     background-repeat: no-repeat;
     height: fit-content;
 }
